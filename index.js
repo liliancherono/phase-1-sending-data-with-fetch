@@ -1,5 +1,5 @@
 function submitData(name, email) {
-  return fetch("http://localhost:3000/users", {
+  return fetch("https://json-server-a3m4.onrender.com/users", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
